@@ -1,6 +1,37 @@
+body {
+  background-color: lightblue;
+}
+
 .App {
   text-align: center;
+  background-color: rgb(128, 218, 137);
+  width: 60em;
+  margin: auto;
+  margin-top: 30px;
+  border: 3px solid #282c34;
+  border-radius: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
+
+.button {
+  margin: 10px;
+}
+
+.quote-holder {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  width: 60%;
+  align-self: center;
+}
+
+.quote {
+  margin: 10px;
+  text-align: center;
+}
+
 
 .App-logo {
   height: 40vmin;
